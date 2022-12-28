@@ -36,12 +36,17 @@ span {
 }
 
 .swiper {
-    width: 40vmin;
-    height: 20vmin;
+    width: 45vmin;
+    height: 22vmin;
     margin-top: 2vmin;
 }
 
+.swiper img {
+    width: 100%;
+    height: 100%;
+}
+
 .swiper-button-prev, .swiper-button-next {
-    color: grey;
+    color: #39FF14;
     opacity: 40%;
 }
