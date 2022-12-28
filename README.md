@@ -1,1 +1,1 @@
-<a href="https://aeh-portfolio.netlify.app"><img src="static/portfolio-screenshot.png"></a>
+<a href="https://aeh-portfolio.netlify.app"><img src="public/assets/portfolio-screenshot.png"></a>
