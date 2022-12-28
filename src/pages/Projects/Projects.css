@@ -1,0 +1,50 @@
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15vmin;
+    row-gap: 8vmin;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 80vh;
+    overflow: scroll;
+    margin-top: 20vmin;
+    padding-bottom: 10vmin;
+    animation: fadeInUp 1s;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-title {
+    font-size: 3vmin;
+}
+
+.description {
+    margin-top: -1vmin;
+    font-size: 1.5vmin;
+}
+
+.project-link {
+    font-size: 1.5vmin;
+    color: #39FF14;
+}
+
+span {
+    padding: 0 5px;
+}
+
+.slider {
+    width: 40vmin;
+    height: 20vmin;
+    padding-top: 2vmin;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.previousButton, .nextButton {
+    margin-top: 15px;
+}

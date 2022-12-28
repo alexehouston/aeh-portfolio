@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Lexend Giga', sans-serif;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+body {
+  animation: fade ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 60%;
+  z-index: -5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 4vmin;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Nav {
+  animation: fadeInDown 1s;
+}
+
+/* animations */
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* mobile-friendly ui */
+
+@media screen and (max-width: 850px) {
+
+  /* home page */
+
+  .glitch-container {
+      padding: 3vh;
+  }
+
+  .glitch {
+      font-size: 10vw;
+  }
+
+  .houston {
+      font-size: 12vw;
+  }
+
+  .developer {
+      font-size: 4vw;
+  }
+
+  .home {
+      margin: -5vh;
+  }
+
+  /* nav bar */
+
+  #nav {
+      height: 25vh;
+  }
+
+  #nav li {
+      margin: 0 3vmin;
+  }
+
+  .dropdown-content {
+      font-size: 5vmin;
+      margin-left: -230px;
+  }
+
+  #home-dropdown {
+      margin-left: -160px;
+  }
+
+  /* resume */
+
+  .resume, iframe {
+      width: 320px;
+      height: 410px;
+  }
+
+  .resume {
+      margin: auto;
+  }
+
+  /* projects */
+
+  .project-container {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .project-title {
+      font-size: 8vmin;
+  }
+
+  .description {
+      font-size: 3vmin;
+  }
+
+  .carousel {
+      width: 400px;
+      height: 200px;
+  }
+
+  .carousel img {
+      height: 150px;
+  }
+}

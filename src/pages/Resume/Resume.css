@@ -1,0 +1,15 @@
+.Resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vmin;
+    animation: fadeInUp 1s;
+}
+
+iframe {
+    width: 50vmin;
+    height: 65vmin;
+    border: 2px solid white;
+    border-radius: 15px;
+    opacity: 85%;
+}
