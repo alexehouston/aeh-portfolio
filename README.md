@@ -1,1 +1,1 @@
-<a href="https://alexehouston.github.io/portfolio/"><img src="static/portfolio-screenshot.png"></a>
+<a href="https://aeh-portfolio.netlify.app"><img src="static/portfolio-screenshot.png"></a>
