@@ -35,16 +35,13 @@ span {
     padding: 0 5px;
 }
 
-.slider {
+.swiper {
     width: 40vmin;
     height: 20vmin;
-    padding-top: 2vmin;
+    margin-top: 2vmin;
 }
 
-.slider img {
-    width: 100%;
-}
-
-.previousButton, .nextButton {
-    margin-top: 15px;
+.swiper-button-prev, .swiper-button-next {
+    color: grey;
+    opacity: 40%;
 }
