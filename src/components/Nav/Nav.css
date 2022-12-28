@@ -47,3 +47,22 @@ li:hover {
 .dropdown-content a:hover {
     color: #39FF14;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .Nav {
+        column-gap: 7vmin;
+    }
+    
+    .size-40 {
+        font-size: 8vmin;
+    }
+
+    .dropdown:hover .dropdown-content {
+        column-gap: 5vmin;
+        position: fixed;
+        left: 255%;
+        top: 140%;
+        transform: none;
+    }
+}

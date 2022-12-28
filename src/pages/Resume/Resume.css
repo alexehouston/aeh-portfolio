@@ -13,3 +13,10 @@ iframe {
     border-radius: 15px;
     opacity: 85%;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .Resume {
+        margin-top: 45vmin;
+    }
+}

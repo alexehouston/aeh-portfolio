@@ -50,3 +50,24 @@ span {
     color: #39FF14;
     opacity: 40%;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .Projects {
+        margin-top: 45vmin;
+        width: 90vw;
+    }
+
+    #title {
+        font-size: 6vmin;
+    }
+
+    .project-link {
+        font-size: 3vmin;
+    }
+
+    .swiper {
+        width: 85vw;
+        height: 40vmin;
+    }
+}

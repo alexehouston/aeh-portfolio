@@ -7,7 +7,7 @@ export default function Projects() {
     return (
         <div className="Projects">
             <div className="project">
-                <h1 className="project-title">Squiz</h1>
+                <h1 className="project-title" id="title">Squiz</h1>
                 <h1 className="description">MERN-Stack Quiz Application</h1>
                 <a className="project-link" href="https://squiz.herokuapp.com/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/squiz" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
@@ -24,7 +24,7 @@ export default function Projects() {
                 </Swiper>
             </div>
             <div className="project">
-                <h1 className="project-title">KP Hair Color</h1>
+                <h1 className="project-title" id="title">KP Hair Color</h1>
                 <h1 className="description">React.js Web Application</h1>
                 <a className="project-link" href="https://kphaircolor.netlify.app/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/kphaircolor" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
@@ -44,7 +44,7 @@ export default function Projects() {
                 </Swiper>
             </div>
             <div className="project">
-                <h1 className="project-title">Daniel 성훈 Kim</h1>
+                <h1 className="project-title" id="title">Daniel 성훈 Kim</h1>
                 <h1 className="description">React.js Web Application</h1>
                 <a className="project-link" href="https://danielsunghoonkim.com/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/danielsunghoonkim" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
@@ -61,7 +61,7 @@ export default function Projects() {
                 </Swiper>
             </div>
             <div className="project">
-                <h1 className="project-title">KP x AEH</h1>
+                <h1 className="project-title" id="title">KP x AEH</h1>
                 <h1 className="description">React.js Web Application</h1>
                 <a className="project-link" href="https://kpxaeh.com/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/kpxaeh" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
@@ -78,7 +78,7 @@ export default function Projects() {
                 </Swiper>
             </div>
             <div className="project">
-                <h1 className="project-title">Cinéflix</h1>
+                <h1 className="project-title" id="title">Cinéflix</h1>
                 <h1 className="description">Full-Stack Django Web Application</h1>
                 <a className="project-link" href="https://cineflixapp.herokuapp.com/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/cineflix" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
@@ -97,7 +97,7 @@ export default function Projects() {
                 </Swiper>
             </div>
             <div className="project">
-                <h1 className="project-title">Hamstera</h1>
+                <h1 className="project-title" id="title">Hamstera</h1>
                 <h1 className="description">Full-Stack Django Web Application</h1>
                 <a className="project-link" href="https://github.com/alexehouston/hamstera" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
@@ -115,7 +115,7 @@ export default function Projects() {
                 </Swiper>
             </div>
             <div className="project">
-                <h1 className="project-title">PokéBank</h1>
+                <h1 className="project-title" id="title">PokéBank</h1>
                 <h1 className="description">Full-stack Node.js Web Application</h1>
                 <a className="project-link" href="https://poke-bank.herokuapp.com/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/pokebank" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
@@ -137,7 +137,7 @@ export default function Projects() {
                 </Swiper>
             </div>
             <div className="project">
-                <h1 className="project-title">Concentration</h1>
+                <h1 className="project-title" id="title">Concentration</h1>
                 <h1 className="description">JavaScript-based Browser Game</h1>
                 <a className="project-link" href="https://alexehouston.github.io/concentration/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/concentration" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
