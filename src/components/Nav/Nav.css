@@ -12,6 +12,11 @@
     color: white;
     font-size: 4vmin;
     animation: fadeIn 1s;
+    padding-bottom: 5vmin;
+}
+
+.size-40:hover {
+    color: #39FF14;
 }
 
 ul, li {
@@ -25,7 +30,6 @@ li:hover {
     text-decoration: underline;
     scale: calc(1.2);
     transition: all .2s ease-in-out;
-    color: #39FF14;
 }
   
 /* contact dropdown */
@@ -40,7 +44,7 @@ li:hover {
     position: fixed;
     font-size: 2.5vmin;
     left: 50%;
-    top: 120%;
+    top: 70%;
     transform: translate(-50%);
 }
   

@@ -9,7 +9,7 @@ export default function Nav({ currentPage, setCurrentPage }) {
                 <li onClick={() => setCurrentPage('projects')}><span className="material-symbols-outlined size-40">code_blocks</span></li>
                 <li className="dropdown">
                     <div className="dropbtn">
-                        <span className="material-symbols-outlined size-40">mail</span>
+                        <span className="material-symbols-outlined size-40" id="dropbtn">mail</span>
                     </div>
                 <div className="dropdown-content">
                     <a href="https://www.linkedin.com/in/alexehouston/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
