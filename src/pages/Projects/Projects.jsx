@@ -14,7 +14,7 @@ export default function Projects() {
                     modules={[Navigation, Autoplay]}
                     navigation={true}
                     autoplay={{
-                        delay: 2000,
+                        delay: 3000,
                         disableOnInteraction: false,
                       }}
                 >
@@ -67,7 +67,7 @@ export default function Projects() {
                     modules={[Navigation, Autoplay]}
                     navigation={true}
                     autoplay={{
-                        delay: 2000,
+                        delay: 2500,
                         disableOnInteraction: false,
                       }}
                 >
@@ -84,7 +84,7 @@ export default function Projects() {
                     modules={[Navigation, Autoplay]}
                     navigation={true}
                     autoplay={{
-                        delay: 2000,
+                        delay: 3000,
                         disableOnInteraction: false,
                       }}
                 >
@@ -101,7 +101,7 @@ export default function Projects() {
                     modules={[Navigation, Autoplay]}
                     navigation={true}
                     autoplay={{
-                        delay: 2000,
+                        delay: 3500,
                         disableOnInteraction: false,
                       }}
                 >
@@ -120,7 +120,7 @@ export default function Projects() {
                     modules={[Navigation, Autoplay]}
                     navigation={true}
                     autoplay={{
-                        delay: 2000,
+                        delay: 2500,
                         disableOnInteraction: false,
                       }}
                 >
@@ -160,7 +160,7 @@ export default function Projects() {
                     modules={[Navigation, Autoplay]}
                     navigation={true}
                     autoplay={{
-                        delay: 2000,
+                        delay: 3000,
                         disableOnInteraction: false,
                       }}
                 >
