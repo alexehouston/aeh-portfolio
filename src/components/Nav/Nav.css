@@ -8,67 +8,21 @@
     animation: fadeInDown 1s;
 }
 
-.size-40 {
-    color: white;
-    font-size: 4vmin;
-    animation: fadeIn 1s;
-    padding-bottom: 5vmin;
-    transition: all 0.5s ease;
-}
-
-.size-40:hover {
-    color: #39FF14;
-}
-
 ul, li {
     column-gap: 1.5vw;
     padding: 0;
     list-style: none;
 }
 
-li:hover {
+.nav-icon {
+    font-size: 2.8vmin;
+    transition: all .5s ease;
+}
+
+.nav-icon:hover {
     cursor: pointer;
-    text-decoration: underline;
-}
-  
-/* contact dropdown */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-.dropdown:before {
-    content: "";
-    position: absolute;
-    left: -32vmin;
-    top: 3.5vmin;
-    width: calc(100% + 300px);
-    height: calc(100% + 50px);
-}
-
-.dropdown:hover .dropdown-content {
-    display: flex;
-    column-gap: 3vmin;
-    animation: fadeIn 1s;
-}
-  
-.dropdown-content {
-    display: none;
-    position: fixed;
-    font-size: 2.5vmin;
-    left: 50%;
-    top: 15%;
-    transform: translate(-50%);
-    transition-delay: 0.5s;
-}
-  
-.dropdown-content a {
-    transition: all 0.5s ease;
-}
-  
-.dropdown-content a:hover {
     color: #39FF14;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1000px) {
@@ -76,16 +30,9 @@ li:hover {
     .Nav {
         column-gap: 7vmin;
     }
-    
-    .size-40 {
-        font-size: 8vmin;
+
+    .nav-icon {
+        font-size: 4vmin;
     }
 
-    .dropdown:hover .dropdown-content {
-        column-gap: 5vmin;
-        position: fixed;
-        left: 255%;
-        top: 140%;
-        transform: none;
-    }
 }
