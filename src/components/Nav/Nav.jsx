@@ -14,8 +14,7 @@ export default function Nav({ currentPage, setCurrentPage }) {
                 <div className="dropdown-content">
                     <a href="https://www.linkedin.com/in/alexehouston/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/alexehouston" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
-                    <a href="https://twitter.com/alexehouston" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a>
-                    <a href="mailto:alex@alexehouston.com" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a>
+                    <a href="mailto:alexehouston@gmail.com" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a>
                 </div>
                 </li>
             </ul>
