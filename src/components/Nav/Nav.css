@@ -36,3 +36,11 @@ ul, li {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .nav-icon {
+        font-size: 5.5vmin;
+    }
+
+}
