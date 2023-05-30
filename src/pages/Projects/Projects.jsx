@@ -26,7 +26,7 @@ export default function Projects() {
             <div className="project">
                 <h1 className="project-title" id="title">Elia Gal</h1>
                 <h1 className="description">React.js Web Application</h1>
-                <a className="project-link" href="https://eliarene.netlify.app/" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/elia-gal" target="_blank" rel="noreferrer">Repo</a>
+                <a className="project-link" href="https://eliagal.com" target="_blank" rel="noreferrer">Demo</a><span>|</span><a className="project-link" href="https://github.com/alexehouston/elia-gal" target="_blank" rel="noreferrer">Repo</a>
                 <Swiper
                     modules={[Navigation, Autoplay]}
                     navigation={true}
